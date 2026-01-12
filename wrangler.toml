@@ -1,0 +1,10 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "muslim-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "muslim-api-db"
+database_id = "fdc9d34c-d462-4d6c-bf71-17bd044a09e0"
